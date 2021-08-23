@@ -72,7 +72,7 @@ Hit /help to find my list of available commands
 buttons = [
     [
         InlineKeyboardButton(
-            text="♻️ Update Grroup ♻️", url="https://t.me/kingstersupportgroup"
+            text="♻️ Update Group ♻️", url="https://t.me/kingstersupportgroup"
         ),
         InlineKeyboardButton(
             text="🗣️ Support Group 🗣️", url="https://t.me/sdbotworld"
@@ -80,7 +80,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🇱🇰 Developet 🇱🇰", url="https://t.me/omindas"
+            text="🇱🇰 Developer 🇱🇰", url="https://t.me/omindas"
         ),
         InlineKeyboardButton(
             text="🎯 Help 🎯", url="http://t.me/sr_kingster_bot?start=help"
@@ -208,7 +208,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="🔙 Back", callback_data="help_back")]]
                     ),
                 )
 
@@ -320,7 +320,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="🔙 Back", callback_data="help_back")]]
                 ),
             )
 
@@ -384,14 +384,14 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="How To Use Me", callback_data="aboutmanu_howto"
+                            text="⚡ How To Use me ⚡", callback_data="aboutmanu_howto"
                         ),
                         InlineKeyboardButton(
-                            text="Terms and Conditions", callback_data="aboutmanu_tac"
+                            text="🔭 Terms and Conditions 🔭", callback_data="aboutmanu_tac"
                         ),
                     ],
-                    [InlineKeyboardButton(text="Help", callback_data="help_back")],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="🎲 Help 🎲", callback_data="help_back")],
+                    [InlineKeyboardButton(text="🔙 Back", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -407,7 +407,7 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vectr Support](https://t.me/AnkiSupport_Official).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining[Dr Projects](https://t.me/sdbotworld).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
