@@ -63,8 +63,8 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Hello there, I'm 𝓐𝓷𝓴𝓲 𝓥𝓮𝓬𝓽𝓸𝓻
-I'm a Powerful group manager bot With Cool Modules. Made by [𝓓𝓪𝓶𝓪𝓷𝓽𝓱𝓪 𝓙𝓪𝓼𝓲𝓷𝓰𝓱𝓮• 🇱🇰](t.me/Damantha_Jasinghe)
+👋 Hello there, I'm Kingster
+I'm a Powerful group manager bot With Cool Modules. Made by [OMINDA DILSHAN 🇱🇰](t.me/omindas)
 Hit /help to find my list of available commands
  
 """
@@ -72,38 +72,38 @@ Hit /help to find my list of available commands
 buttons = [
     [
         InlineKeyboardButton(
-            text="📢Updates Channel", url="https://t.me/ankivectorUpdates"
+            text="♻️ Update Grroup ♻️", url="https://t.me/kingstersupportgroup"
         ),
         InlineKeyboardButton(
-            text="👥 Support Group", url="https://t.me/AnkiSupport_Official"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="📜Source", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"
-        ),
-        InlineKeyboardButton(
-            text="❔ Help", url="http://t.me/TheAnkiVectorbot?start=help"
+            text="🗣️ Support Group 🗣️", url="https://t.me/sdbotworld"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector to your group ➕",
-            url="t.me/TheAnkiVectorbot?startgroup=true",
+            text="🇱🇰 Developet 🇱🇰", url="https://t.me/omindas"
+        ),
+        InlineKeyboardButton(
+            text="🎯 Help 🎯", url="http://t.me/sr_kingster_bot?start=help"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="➕ Add KINGSTER to your group ➕",
+            url="t.me/sr_kingster_bot?startgroup=true",
         ),
     ],
 ]
 
-ANKIVECTOR_IMG = "https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg"
+ANKIVECTOR_IMG = "https://telegra.ph/file/f407b5f6fbed665ea410c.jpg"
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/e10a45d0433a1ab6fed7b.jpg)
-✪ /start: Starts me! You've probably already used this.
-✪ /help: Click this, I'll let you know about myself!
-✪ /donate: You can support my creater using this command.
+*My Main Commands :* [🤖](https://telegra.ph/file/f407b5f6fbed665ea410c.jpg)
+✪ /start: Starts me! You've probably already used this⚡.
+✪ /help: Click this, I'll let you know about myself⚡!
+✪ /donate: You can support my creater using this command⚡.
 ✪ /settings: 
-   ◔ in PM: will send you your settings for all supported modules.
-   ◔ in a Group: will redirect you to pm, with all that chat's settings.
+   ◔ in PM: will send you your settings for all supported modules🎯.
+   ◔ in a Group: will redirect you to pm, with all that chat's settings🎯.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -112,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them  [OMINDA DILSHAN](t.me/omindas)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
