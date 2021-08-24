@@ -532,7 +532,7 @@ All regex filters can be disabled incase u don't want... like: `/disable goodnig
 
 """
 
-__mod_name__ = "🎉Memes🎉"
+__mod_name__ = "Memes🎉"
 
 
 PAT_HANDLER = DisableAbleCommandHandler("pat", pat)
