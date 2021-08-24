@@ -1,5 +1,5 @@
 __help__ = """
-** Anki Vector - A Powerful Telegram Group Manager 🎶 **
+** Kingster - A Powerful Telegram Group Manager 🎶 **
 
 Powerful Abilities
 
@@ -9,6 +9,8 @@ Powerful Abilities
 
 • Youtube Downloader 🎵
 
-Developer [Damantha🇱🇰](https://t.me/Damantha_Jasinghe)
+● And More..
+
+Developer [Ominda🇱🇰](https://t.me/omindas)
 """
 __mod_name__ = "About"
