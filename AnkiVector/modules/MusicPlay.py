@@ -61,10 +61,10 @@ channel is also can be used instead of c ( /cplay = /channelplay )
  
 * 🔷Assisten🔷 *
 
-@AnkivectorMusicbot
+@omindas
 
 * 🔸Bot🔸 *
 
-@TheAnkiVectorMusicBot
+@SD_VC_Music_Play_Ro_Bot
 """
 __mod_name__ = "Music Play"
