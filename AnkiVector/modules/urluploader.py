@@ -28,7 +28,7 @@ async def download_coroutine(session, url, file_name, event, start, bot):
 **URL:** {}
 **File Name:** {}
 **File Size:** {}
-**© @AnkiVectorUpdates**""".format(
+**© @sdbotworld**""".format(
                 url,
                 os.path.basename(file_name).replace("%20", " "),
                 humanbytes(total_length),
@@ -89,4 +89,4 @@ __help__ = """
  
 © @omindas 🇱🇰
 """
-__mod_name__ = "📤 URL Upload 📤"
+__mod_name__ = "URL Upload 📤"
