@@ -187,4 +187,4 @@ __help__ = """
 © @Damantha_Jasinghe 🇱🇰
 """
 
-__mod_name__ = "File To Link"
+__mod_name__ = "File To Link 📡"
