@@ -1,6 +1,6 @@
-from DewmiBot.events import register
-from DewmiBot import OWNER_ID
-from DewmiBot import telethn as tbot
+from The-Anki-Vector.events import register
+from The-Anki-Vector import OWNER_ID
+from The-Anki-Vector import telethn as tbot
 import os 
 from PIL import Image, ImageDraw, ImageFont
 import shutil 
