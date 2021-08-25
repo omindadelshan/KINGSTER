@@ -90,7 +90,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./AnkiVector/resources/Chopsic.otf", 330)
+    font = ImageFont.truetype("./AnkiVector/Chopsic.otf", 330)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -127,7 +127,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./AnkiVector/resources/Chopsic.otf", 950)
+    font = ImageFont.truetype("./AnkiVector/Chopsic.otf", 950)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -165,7 +165,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "white"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./AnkiVector/resources/Maghrib.ttf", 1000)
+    font = ImageFont.truetype("./AnkiVectorMaghrib.ttf", 1000)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -260,7 +260,7 @@ async def logo_gen(event):
     if os.path.exists(bg_):
         os.remove(bg_)
     if os.path.exists(font_):
-        if not font_.startswith("AnkiVector/resources/"):
+        if not font_.startswith("AnkiVector/"):
             os.remove(font_)    
  
 
@@ -285,7 +285,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./AnkiVector/resources/Chopsic.otf", 330)
+    font = ImageFont.truetype("./AnkiVector/Chopsic.otf", 330)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -317,13 +317,13 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./AnkiVector/resources/pandabg.png')
+    img = Image.open('./AnkiVector/pandabg.png')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 25
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./AnkiVector/resources/font.otf", 170)
+    font = ImageFont.truetype("./AnkiVector/font.otf", 170)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -355,13 +355,13 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./AnkiVector/resources/spiderbg.png')
+    img = Image.open('./AnkiVector/spiderbg.png')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 25
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./AnkiVector/resources/font.otf", 170)
+    font = ImageFont.truetype("./AnkiVector/font.otf", 170)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -400,7 +400,7 @@ async def lego(event):
     pointsize = 25
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./AnkiVector/resources/font.otf", 170)
+    font = ImageFont.truetype("./AnkiVector/font.otf", 170)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
@@ -430,4 +430,4 @@ __help__ = """
  ❍ /spiderlogo text
  ❍ /spider_man_logo text
  """
-__mod_name__ = "Logo Maker"
+__mod_name__ = "Logo Maker♒"
