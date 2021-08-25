@@ -84,7 +84,7 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./AnkiVector/resources/blackbg.jpg')
+    img = Image.open('./hitler.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
@@ -100,11 +100,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @sr_kingster_bot ⚡️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')
+   await event.reply(f'Error Go to Help From  @sdbotworld, {e}')
 
 @register(pattern="^/biglogo ?(.*)")
 async def lego(event):
@@ -121,7 +121,7 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./AnkiVector/resources/blackbg.jpg')
+    img = Image.open('./kim.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
@@ -137,11 +137,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @sr_kingster_bot ⚡️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')
+   await event.reply(f'Error Go to Help From  @sdbotworld, {e}')
 
 
 @register(pattern="^/wlogo ?(.*)")
@@ -159,7 +159,7 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./AnkiVector/resources/blackbg.jpg')
+    img = Image.open('./AnkiVector/hero.png')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
@@ -279,7 +279,7 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./AnkiVector/resources/blackbg.jpg')
+    img = Image.open('./AnkiVector/hero.png')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
@@ -295,11 +295,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="red")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @sr_kingster_bot ⚡️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')
+   await event.reply(f'Error Go to Help From  @sdbotworld, {e}')
   
 
 @register(pattern="^/pandalogo ?(.*)")
@@ -333,11 +333,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @sr_kingster_bot ⚡️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')
+   await event.reply(f'Error Go to Help From  @sdbotworld, {e}')
   
 
 @register(pattern="^/spiderlogo ?(.*)")
@@ -371,11 +371,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @sr_kingster_bot ⚡️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')  
+   await event.reply(f'Error Go to Help From  @sdbotworld, {e}')  
   
   
   
@@ -394,7 +394,7 @@ async def lego(event):
  await event.reply('Creating your logo...wait!')
  try:
     text = event.pattern_match.group(1)
-    img = Image.open('./AnkiVector/resources/spiderbg (2).png')
+    img = Image.open('./kim.jpg')
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 25
@@ -410,11 +410,11 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="black", stroke_width=25, stroke_fill="yellow")
     fname2 = "AnkiVectorLogo.png"
     img.save(fname2, "png")
-    await tbot.send_file(event.chat_id, fname2, caption="Made By @TheAnkiVectorBot ⚡️")
+    await tbot.send_file(event.chat_id, fname2, caption="Made By @sr_kingster_bot ⚡️")
     if os.path.exists(fname2):
             os.remove(fname2)
  except Exception as e:
-   await event.reply(f'Error Go to Help From  @AnkiSupport_Official, {e}')  
+   await event.reply(f'Error Go to Help From  @sdbotworld, {e}')  
   
 file_help = os.path.basename(__file__)
 file_help = file_help.replace(".py", "")
