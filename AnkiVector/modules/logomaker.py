@@ -430,4 +430,4 @@ __help__ = """
  ❍ /spiderlogo text
  ❍ /spider_man_logo text
  """
-__mod_name__ = "Logo Maker"
+__mod_name__ = "Logo Maker🌆"
