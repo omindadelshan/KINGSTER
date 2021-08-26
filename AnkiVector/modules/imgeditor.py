@@ -1,5 +1,5 @@
 # By @TroJanzHEX
-# Improved by TeamDaisyX
+# Improved by omindadelshan
 
 from pyrogram import filters
 from pyrogram.types import (
@@ -10,7 +10,7 @@ from pyrogram.types import (
 )
 
 # By @TroJanzHEX
-from DaisyX.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
+from AnkiVector.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
     black_white,
     box_blur,
     bright,
@@ -18,7 +18,7 @@ from DaisyX.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
     mix,
     normal_blur,
 )
-from DaisyX.Addons.ImageEditor.edit_2 import (  # pylint:disable=import-error
+from AnkiVector.Addons.ImageEditor.edit_2 import (  # pylint:disable=import-error
     cartoon,
     circle_with_bg,
     circle_without_bg,
@@ -28,13 +28,13 @@ from DaisyX.Addons.ImageEditor.edit_2 import (  # pylint:disable=import-error
     sepia_mode,
     sticker,
 )
-from DaisyX.Addons.ImageEditor.edit_3 import (  # pylint:disable=import-error
+from AnkiVector.Addons.ImageEditor.edit_3 import (  # pylint:disable=import-error
     black_border,
     blue_border,
     green_border,
     red_border,
 )
-from DaisyX.Addons.ImageEditor.edit_4 import (  # pylint:disable=import-error
+from AnkiVector.Addons.ImageEditor.edit_4 import (  # pylint:disable=import-error
     inverted,
     removebg_plain,
     removebg_sticker,
@@ -44,7 +44,7 @@ from DaisyX.Addons.ImageEditor.edit_4 import (  # pylint:disable=import-error
     rotate_270,
     round_sticker,
 )
-from DaisyX.Addons.ImageEditor.edit_5 import (  # pylint:disable=import-error
+from AnkiVector.Addons.ImageEditor.edit_5 import (  # pylint:disable=import-error
     normalglitch_1,
     normalglitch_2,
     normalglitch_3,
@@ -56,7 +56,7 @@ from DaisyX.Addons.ImageEditor.edit_5 import (  # pylint:disable=import-error
     scanlineglitch_4,
     scanlineglitch_5,
 )
-from DaisyX.services.pyrogram import pbot as Client
+from AnkiVector.services.pyrogram import pbot as Client
 
 lel = 00000000
 # pylint:disable=import-error
@@ -450,14 +450,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await removebg_sticker(client, query.message)
 
 
-__mod_name__ = "Image Editor"
+__mod_name__ = "Image Editor🎨"
 __help__ = """
-<b> IMAGE EDITOR </b>
-Daisy have some advanced image editing tools inbuilt
+𝗞𝗶𝗻𝗴𝘀𝘁𝗲𝗿 have some advanced image editing tools inbuilt
 Bright, Circle, RemBG, Blur, Border, Flip, Glitch, Sticker maker and more
 
 - /edit [reply to image]: Open the image editor
 - /rmbg [REPLY]: Revove BG of replied image/sticker.
 
-<i> Special credits to TroJanzHEX </i>
+<i> Special credits to OMINDA </i>
 """
