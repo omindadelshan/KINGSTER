@@ -8,12 +8,12 @@ from telegram.ext import CallbackContext, run_async
 from tswift import Song
 from telegram.error import BadRequest
 
-import DewmiBot.modules.funs as funs
-from DewmiBot import dispatcher
-from DewmiBot.modules.disable import DisableAbleCommandHandler
-from DewmiBot.modules.helper_funcs.alternate import send_message, typing_action
-from DewmiBot.modules.helper_funcs.chat_status import (is_user_admin)
-from DewmiBot.modules.helper_funcs.extraction import extract_user
+import AnkiVector.modules.funs as funs
+from AnkiVector import dispatcher
+from AnkiVector.modules.disable import DisableAbleCommandHandler
+from AnkiVector.modules.helper_funcs.alternate import send_message, typing_action
+from AnkiVector.modules.helper_funcs.chat_status import (is_user_admin)
+from AnkiVector.modules.helper_funcs.extraction import extract_user
 
 GIF_ID = 'CgACAgQAAx0CSVUvGgAC7KpfWxMrgGyQs-GUUJgt-TSO8cOIDgACaAgAAlZD0VHT3Zynpr5nGxsE'
 
