@@ -1,12 +1,12 @@
 import os
 
-from DewmiBot.modules.sql.night_mode_sql import add_nightmode, rmnightmode, get_all_chat_id, is_nightmode_indb
+from AnkiVector.modules.sql.night_mode_sql import add_nightmode, rmnightmode, get_all_chat_id, is_nightmode_indb
 from telethon.tl.types import ChatBannedRights
 from apscheduler.schedulers.asyncio import AsyncIOScheduler 
 from telethon import functions
-from DewmiBot.events import register
-from DewmiBot import OWNER_ID
-from DewmiBot import telethn as tbot
+from AnkiVector.events import register
+from AnkiVector import OWNER_ID
+from AnkiVector import telethn as tbot
 from telethon import *
 from telethon import Button, custom, events
 
@@ -174,4 +174,4 @@ __help__ = """
 and Automatically openned at 6am(IST) To Prevent Night Spams.
 """
 
-__mod_name__ = "🌗Night mode"
+__mod_name__ = "Night mode🌓"
