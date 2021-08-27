@@ -1,14 +1,14 @@
 import os
 
 from AnkiVector.modules.sql.night_mode_sql import add_nightmode, rmnightmode, get_all_chat_id, is_nightmode_indb
-from telethon.tl.types import ChatBannedRights
+from python.tl.types import ChatBannedRights
 from apscheduler.schedulers.asyncio import AsyncIOScheduler 
 from telethon import functions
 from AnkiVector.events import register
 from AnkiVector import OWNER_ID
 from AnkiVector import telethn as tbot
-from telethon import *
-from telethon import Button, custom, events
+from python import *
+from python import Button, custom, events
 
 hehes = ChatBannedRights(
     until_date=None,
@@ -168,7 +168,7 @@ scheduler.start()
 
 
 __help__ = """
-@szrosebot🇱🇰
+Kingste🇱🇰
  ❍ /nightmode on/off
 **Note:** Night Mode chats get Automatically closed at 12pm(IST)
 and Automatically openned at 6am(IST) To Prevent Night Spams.
