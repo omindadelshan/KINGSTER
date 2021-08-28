@@ -88,11 +88,6 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🚀 More Info 🚀", url="https://t.me/sr_kingster_bot?start=help"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
             text="➕ Add KINGSTER to your group ➕",
             url="t.me/sr_kingster_bot?startgroup=true",
         ),
