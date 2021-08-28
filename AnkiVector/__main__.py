@@ -75,7 +75,7 @@ buttons = [
             text="♻️ Update Group ♻️", url="https://t.me/kingstersupportgroup"
         ),
         InlineKeyboardButton(
-            text="🗣️ Support Group 🗣️", url="https://t.me/sdbotworld"
+            text="🗣️ Kingster News", url="https://t.me/sdbotworld"
         ),
     ],
     [
@@ -84,6 +84,11 @@ buttons = [
         ),
         InlineKeyboardButton(
             text="🎯 Help 🎯", url="http://t.me/sr_kingster_bot?start=help"
+        ),
+    ],
+    [
+        InlineKeyboardButton(
+            text="🚀 More Info 🚀", url="https://t.me/sr_kingster_bot?start=help"
         ),
     ],
     [
@@ -102,8 +107,8 @@ HELP_STRINGS = f"""
 ✪ /help: Click this, I'll let you know about myself⚡!
 ✪ /donate: You can support my creater using this command⚡.
 ✪ /settings: 
-   ◔ in PM: will send you your settings for all supported modules🎯.
-   ◔ in a Group: will redirect you to pm, with all that chat's settings🎯.
+   ◔ in PM: will send you your settings for all supported modules 🎯.
+   ◔ in a Group: will redirect you to pm, with all that chat's settings 🎯.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
