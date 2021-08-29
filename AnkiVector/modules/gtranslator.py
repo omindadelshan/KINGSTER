@@ -24,7 +24,7 @@ def totranslate(update: Update, context: CallbackContext):
 
             message = update.effective_message
             dest_lang = None
-
+8
             try:
                 source_lang = args[1].split(None, 1)[0]
             except:
@@ -123,8 +123,7 @@ def totranslate(update: Update, context: CallbackContext):
             "Reply to messages or write messages from other languages   for translating into the intended language\n\n"
             "Example: `/tr en-ml` to translate from English to Malayalam\n"
             "Or use: `/tr ml` for automatic detection and translating it into Malayalam.\n"
-            "My Languege Codes👇
-             af,am,ar,az,be,bg,bn,bs,ca,ceb,co,cs,cy,da,de,el,en,eo,es,et,eu,fa,fi,fr,fy,ga,gd,gl,gu,ha,haw,hi,hmn,hr,ht,hu,hy,id,ig,is,it,iw,ja,jw,ka,kk,km,kn,ko,ku,ky,la,lb,lo,lt,lv,mg,mi,mk,ml,mn,mr,ms,mt,my,ne,nl,no,ny,pa,pl,ps,pt,ro,ru,sd,si,sk,sl,sm,sn,so,sq,sr,st,su,sv,sw,ta,te,tg,th,tl,tr,uk,ur,uz,vi,xh,yi,yo,zh,zh_CN,zh_TW,zu ",
+            "My Languege Codes Creating..",
             parse_mode="markdown",
             disable_web_page_preview=True,
         )
