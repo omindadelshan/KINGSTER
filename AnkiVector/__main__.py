@@ -80,10 +80,10 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🇱🇰 Developer 🇱🇰", url="https://t.me/omindas"
+            text="💠 More 💠", url="https://t.me/omindas"
         ),
         InlineKeyboardButton(
-            text="🎯 Help 🎯", url="http://t.me/sr_kingster_bot?start=help"
+            text="❓ MyCommands ❗", url="callback_data="help_back"
         ),
     ],
     [
