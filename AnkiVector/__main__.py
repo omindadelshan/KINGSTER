@@ -93,6 +93,7 @@ buttons = [
         ),
     ],
 ]
+ANKIVECTOR_IMG = "https://telegra.ph/file/f407b5f6fbed665ea410c.jpg"
 
 
 HELP_STRINGS = f"""
