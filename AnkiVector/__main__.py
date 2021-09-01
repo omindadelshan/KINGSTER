@@ -83,7 +83,7 @@ buttons = [
             text="💠 Developer 💠", url="https://t.me/omindas"
         ),
         InlineKeyboardButton(
-            text="❓ MyCommands ❗", url="http://t.me/sr_kingster_bot?start=help"
+            text="❓ My Commands ❗", url="http://t.me/sr_kingster_bot?start=help"
         ),
     ],
     [
@@ -208,7 +208,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="🔙 Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="🏃‍♂ Back", callback_data="help_back")]]
                     ),
                 )
 
@@ -320,7 +320,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🔙 Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="🏃‍♂ Back", callback_data="help_back")]]
                 ),
             )
 
