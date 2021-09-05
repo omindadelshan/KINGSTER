@@ -28,7 +28,7 @@ from telegram.utils.helpers import escape_markdown
 from tswift import Song
 
 from AnkiVector import DEV_USERS, OWNER_ID, dispatcher
-from AnkiVector.__main__ import GDPR, STATS
+from config import Config
 from AnkiVector.modules.disable import DisableAbleCommandHandler
 from AnkiVector.modules.helper_funcs.alternate import send_action, typing_action
 from AnkiVector.modules.helper_funcs.chat_status import user_admin
